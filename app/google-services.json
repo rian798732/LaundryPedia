@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "890713100955",
+    "firebase_url": "https://laundrypedia-eb919.firebaseio.com",
+    "project_id": "laundrypedia-eb919",
+    "storage_bucket": "laundrypedia-eb919.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890713100955:android:5f76797e649c5baf",
+        "android_client_info": {
+          "package_name": "com.mzf.laundrypedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890713100955-s38bp5qf7ith6svmi1lfrti3edv0s77c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mzf.laundrypedia",
+            "certificate_hash": "c51724f22654abbf827c1ca548a46ffe17e3f19c"
+          }
+        },
+        {
+          "client_id": "890713100955-rfi7i1u4ghc35j837dfq7koev9bi9iv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq0y5Pdx7QAmcQ3haIzmEHlO0UDS6OgyM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890713100955-rfi7i1u4ghc35j837dfq7koev9bi9iv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
