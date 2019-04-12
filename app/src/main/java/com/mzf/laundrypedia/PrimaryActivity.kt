@@ -83,7 +83,8 @@ class PrimaryActivity : AppCompatActivity(), NavigationView.OnNavigationItemSele
 
             }
             R.id.nav_showPickUp -> {
-
+                val intent = Intent(this, ShowPickupActivity::class.java)
+                startActivity(intent)
             }
             R.id.nav_showDelivery -> {
 
