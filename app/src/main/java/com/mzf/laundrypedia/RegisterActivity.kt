@@ -14,7 +14,7 @@ import kotlinx.android.synthetic.main.activity_register.*
 
 class RegisterActivity : AppCompatActivity() {
 
-    private lateinit var auth: FirebaseAuth
+    lateinit var auth: FirebaseAuth
 
     private val TAG = "RegisterActivity"
 
@@ -75,9 +75,9 @@ class RegisterActivity : AppCompatActivity() {
                     }
 
                 val intent = Intent(this, PrimaryActivity::class.java)
-
-                progressDialog.hide()
                 startActivity(intent)
+                progressDialog.hide()
+
             }
         }
     }

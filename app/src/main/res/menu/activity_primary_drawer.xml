@@ -5,53 +5,33 @@
 
     <group android:checkableBehavior="single">
         <item
-                android:id="@+id/nav_camera"
+                android:id="@+id/nav_profile"
                 android:icon="@drawable/ic_account_circle_white_24dp"
                 android:title="Profile"/>
         <item
-                android:id="@+id/nav_gallery"
+                android:id="@+id/nav_history"
                 android:icon="@drawable/ic_event_note_black_24dp"
-                android:title="Pick up"/>
-        <item
-                android:id="@+id/nav_slideshow"
-                android:icon="@drawable/ic_local_shipping_black_24dp"
-                android:title="Delivery"/>
+                    android:title="History transaksi"/>
+
     </group>
 
-    <item android:title="Pilihan Admin">
-        <menu>
-            <item
-                    android:id="@+id/nav_addPlace"
-                    android:icon="@drawable/ic_add_circle_outline_black_24dp"
-                    android:title="Tambahkan Laundry Baru"/>
-        </menu>
-    </item>
-
-    <item android:title="Pilihan Pemilik Laundry">
+    <item android:title="Pilihan Admin Laundry">
         <menu>
             <item
                     android:id="@+id/nav_showPickUp"
-                    android:icon="@drawable/ic_date_range_black_24dp"
-                    android:title="Jadwal Pick Up"/>
+                    android:icon="@drawable/ic_event_note_black_24dp"
+                    android:title="Daftar Pesanan"/>
             <item
                     android:id="@+id/nav_showDelivery"
                     android:icon="@drawable/ic_event_available_black_24dp"
                     android:title="Jadwal Delivery"/>
-            <item
-                    android:id="@+id/nav_showComment"
-                    android:icon="@drawable/ic_comment_black_24dp"
-                    android:title="Komentar Konsumen"/>
         </menu>
     </item>
 
     <item android:title="Lainnya">
         <menu>
             <item
-                    android:id="@+id/nav_share"
-                    android:icon="@drawable/ic_bug_report_black_24dp"
-                    android:title="Report Bug"/>
-            <item
-                    android:id="@+id/nav_send"
+                    android:id="@+id/nav_about"
                     android:icon="@drawable/ic_info_outline_black_24dp"
                     android:title="About"/>
         </menu>
